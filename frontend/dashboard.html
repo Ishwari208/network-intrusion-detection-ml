@@ -1,0 +1,12 @@
+<h1>Real-Time Intrusion Detection System</h1>
+
+<div id="alerts"></div>
+
+<script>
+fetch("http://127.0.0.1:8000/alerts")
+.then(res => res.json())
+.then(data => {
+  document.getElementById("alerts").innerHTML =
+  JSON.stringify(data)
+})
+</script>

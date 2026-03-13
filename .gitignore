@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# System files
+.DS_Store
+
+# Logs
+alerts.log
+
+# IDE files
+.vscode/
+
+# Dataset files (if large)
+*.csv
+*.pkl
